@@ -1,9 +1,12 @@
+*.pyc
 .DS_Store
 .idea/
 .ipynb_checkpoints
-*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*
 *.csv
-*/*.csv
-*/__pycache__
+*.txt
+**/*.csv
+**/__pycache__
 **/*.jpg
 **/*.png
+**/weights/
